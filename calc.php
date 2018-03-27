@@ -1,4 +1,3 @@
-
 <?php
 class calc extends init{
 

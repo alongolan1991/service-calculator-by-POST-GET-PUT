@@ -16,6 +16,6 @@ switch ($cal->func) {
 }
 
 $a = array('retVal'=>$retVal);
-header('Content-Type:application/json');
+header('Content-type:application/json;charset=utf-8');
 echo json_encode($a);
 ?>
